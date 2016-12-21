@@ -9,14 +9,14 @@
     <h1>Aula de foreach loop</h1>
     <?php
     
-    $nomes = array(
-        array("nome" => "Bonieky", "idade" => 90),
-        array("nome" => "André", "idade" => 92),
+    $alunos = array(
+        array("nome" => "Bonieky", "idade" => 10),
+        array("nome" => "André", "idade" => 2),
         array("nome" => "Fulano", "idade" => 12),
-        array("nome" => "Cicrano", "idade" => 25)
+        array("nome" => "Cicrano", "idade" => 15)
     );
 
-    foreach($nomes as $aluno) {
+    foreach($alunos as $aluno) {
         echo "Aluno: " . $aluno["nome"] . " - Idade: " . $aluno["idade"] . "<br/>";
     }
 

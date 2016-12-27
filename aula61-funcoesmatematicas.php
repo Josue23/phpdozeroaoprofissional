@@ -40,23 +40,9 @@
     echo 'Uso da função rand para sortear nomes contidos em array("João", "Maria", "Ayumi", "Ami") <br/>';
     $nomes = array("João", "Maria", "Ayumi", "Ami");
     $nome = rand(0, 3);
-    echo "Sorteado: $nomes[$nome]<br/><br/>";
+    echo "Nome sorteado: $nomes[$nome]<br/><br/>";
     ?>
 
 
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

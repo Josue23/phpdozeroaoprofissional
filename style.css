@@ -18,11 +18,11 @@ a:hover {
   color: #fff;
   background-color: green;
 }
-div {
-    padding-top: 7px;
-    padding-bottom: 0;
-    padding-left: 2%;
-}
-div:hover {
+div, h1 {
     background-color: #BEE2FA;
+    padding-left: 3%;
+    padding-right: 2%;
 }
+/*div:hover, p:hover {
+    background-color: #BEE2FA;
+}*/

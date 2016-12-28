@@ -10,6 +10,15 @@
         h1 {
             color: #171599;
         }
+        a {
+          color: green;
+          font-weight: 900;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #fff;
+          background-color: green;
+        }
     </style>
 </head>
 <body>

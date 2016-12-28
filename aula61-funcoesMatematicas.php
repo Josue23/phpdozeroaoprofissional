@@ -9,11 +9,20 @@
         h1 {
             color: #171599;
         }
+        a {
+          color: green;
+          font-weight: 900;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #fff;
+          background-color: green;
+        }
     </style>
   </head>
   <body>
         <!-- http://membros.phpdozeroaoprofissional.com.br/home/video/61 -->
-        <h1>Aula 61 - funções matemáticas</h1>
+        <h1><a href="http://membros.phpdozeroaoprofissional.com.br/home/video/61" target="_blank">Aula 61 </a>Funções matemáticas</h1>
 
         <?php
         // exemplo de url para testar este exercício:

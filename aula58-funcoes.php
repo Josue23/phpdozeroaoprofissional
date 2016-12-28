@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Aula 58 - Funções</title>
+    <style>
+        body {
+            margin-left: 5%;
+        }
+        h1 {
+            color: #171599;
+        }
+        a {
+          color: green;
+          font-weight: 900;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #fff;
+          background-color: green;
+        }
+    </style>
 </head>
 <body>
    <h1>Aula 58 - Funções</h1>

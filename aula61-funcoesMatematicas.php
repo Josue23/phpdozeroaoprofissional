@@ -2,23 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>Aula 61 - funções matemáticas</title>
-    <style>
-        body {
-            margin-left: 5%;
-        }
-        h1 {
-            color: #171599;
-        }
-        a {
-          color: green;
-          font-weight: 900;
-          text-decoration: none;
-        }
-        a:hover {
-          color: #fff;
-          background-color: green;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
         <!-- http://membros.phpdozeroaoprofissional.com.br/home/video/61 -->

@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Aula 63 - Manipulação de strings</title>
+    <style>
+        body {
+            margin-left: 5%;
+        }
+        h1 {
+            color: #171599;
+        }
+    </style>
 </head>
 <body>
     <!-- http://membros.phpdozeroaoprofissional.com.br/home/video/63 -->
@@ -88,28 +96,5 @@
     echo "String com ucwords: " . ucwords($nome) . "<br/><br/>";
     ?>
 
-    
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

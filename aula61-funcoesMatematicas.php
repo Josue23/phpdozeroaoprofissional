@@ -2,16 +2,55 @@
   <head>
     <meta charset="utf-8">
     <title>Aula 61 - funções matemáticas</title>
+    <style>
+        body {
+            margin-left: 5%;
+        }
+        h1 {
+            color: #171599;
+        }
+    </style>
   </head>
   <body>
     <!-- http://membros.phpdozeroaoprofissional.com.br/home/video/61 -->
     <h1>Aula 61 - funções matemáticas</h1>
 
+    <?php
+    // exemplo de url para testar este exercício:
+    // http://192.168.0.55:8080/aula61-funcoesMatematicas.php?number1=11&number2=18
+    $number1 = $_GET["number1"];  // recebe o valor do parâmetro number1 através da query string
+    $number2 = $_GET["number2"];  // recebe o valor do parâmetro number2 através da query string
+
+    echo "$number1 + $number2 = " . ($number1 + $number2) . "<br/>";
+    echo "$number1 - $number2 = " . ($number1 - $number2) . "<br/>";
+    echo "$number1 * $number2 = " . ($number1 * $number2) . "<br/>";
+    echo "$number1 / $number2 = " . ($number1 / $number2) . "<br/>";
+    echo "$number1 % $number2 = " . ($number1 % $number2) . "<br/><br/>";
+     ?>
+
     Função <a href="http://php.net/manual/en/function.abs.php" target="_blank">abs</a> (valor absoluto)<br>
     <?php
-    echo "O valor absoluto de -5 é: " . abs(-5) . "<br/><br/>";
+    echo "O valor absoluto de " . $number2 . " é: " . abs($number2) . "<br/><br/>";
     ?>
 
+    Função <a href="http://php.net/manual/en/function.pow.php" target="_blank">pow</a> (potência)<br>
+    <?php 
+    echo "$number1 ** $number2 = " . pow($number1, $number2);
+     ?>
+     <br><br>
+
+     Função <a href="http://php.net/manual/en/function.sqrt.php" target="_blank">sqrt</a> (raiz quadrada) <br>
+     <?php 
+     echo "Raiz quadrada de $number2 é: " . sqrt($number2);
+      ?>
+      <br><br>
+
+
+      Função <a href="http://php.net/manual/en/function.intval.php" target="_blank">intval</a> Get the integer value of a variable <br>
+      <?php 
+      echo "O valor inteiro de 23.456 é: " . intval(23.456);
+       ?>
+       <br><br>
 
     Função <a href="http://php.net/manual/en/function.round.php" target="_blank">round</a> (arredonda)<br>
     <?php 

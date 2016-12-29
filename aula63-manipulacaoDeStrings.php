@@ -73,7 +73,7 @@
     <div>
         <hr>
         Função <a href="http://php.net/manual/en/function.implode.php">implode()</a> faz o contrário do explode. <br>
-        Posso usar a função <a href="http://php.net/manual/pt_BR/function.join.php" target="_blank">join</a> que faz a mesma coisa do implode. <br><br>
+        Posso usar a função <a href="http://php.net/manual/pt_BR/function.join.php" target="_blank">join()</a> que faz a mesma coisa do implode() <br><br>
         Exemplos dom o implode: <br>
         <?php 
         $nome = array("Josué", "Carvalho", "Rodrigues");

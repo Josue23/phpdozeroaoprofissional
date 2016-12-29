@@ -54,22 +54,16 @@ h1:hover {
     background-color: #BEE2FA;
 }
 a {
-  color: green;
+  color: #fff;
   font-weight: 900;
   text-decoration: none;
   padding-left: .5%;
   padding-right: .5%;
-  background-color: #fff;
-}
-a:hover {
-  color: #fff;
-  background-color: green;
+  background-color: #637A91;
 }
 div, h1 {
     background-color: #BEE2FA;
     padding-left: 3%;
     padding-right: 2%;
 }
-/*div:hover, p:hover {
-    background-color: #BEE2FA;
-}*/
+

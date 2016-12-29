@@ -149,7 +149,7 @@
     <div>
       <hr>
       <p>Função <a href="http://php.net/manual/en/function.in-array.php" target="_blank">in_array</a> Checks if a value exists in an array. <br>
-      Geralmente é usado dentro da estrutura condicional if</p>
+      Geralmente é usado dentro da estrutura condicional if</p><br>
       <?php 
       $vencedores = array(
         "José",
@@ -160,6 +160,7 @@
       print_r($vencedores);
       echo "<br/><br/>";
 
+      echo "Verifica se um nome está no array: <br/>";
       if (in_array("Maria", $vencedores)) {
         echo "Maria é um dos campeões.<br/>";
       }

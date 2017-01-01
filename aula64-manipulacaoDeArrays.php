@@ -90,7 +90,7 @@
 
     <div>
       <hr>
-      <p>Função <a href="http://php.net/manual/en/function.asort.php" target="_blank">asort</a> ordena o array, mantendo a associação entre os índices e valores correspondentes. </p>
+      Função <a href="http://php.net/manual/en/function.asort.php" target="_blank">asort</a> ordena o array, mantendo a associação entre os índices e valores correspondentes. <br>
       <?php 
       $aluno = array(
           nome => "Josué",
@@ -110,7 +110,7 @@
 
     <div>
       <hr>
-      <p>Função <a href="http://php.net/manual/en/function.arsort.php" target="_blank">arsort</a> ordena o array na ordem reversa, mantendo a associação entre os índices e valores correspondentes.</p>
+      Função <a href="http://php.net/manual/en/function.arsort.php" target="_blank">arsort</a> ordena o array na ordem reversa, mantendo a associação entre os índices e valores correspondentes. <br>
       <?php 
       $aluno = array(
           nome => "Josué",
@@ -130,7 +130,7 @@
 
     <div>
       <hr>
-      <p>Função <a href="http://php.net/manual/en/function.count.php" target="_blank">count</a> Count all elements in an array, or something in an object</p>
+      Função <a href="http://php.net/manual/en/function.count.php" target="_blank">count</a> Count all elements in an array, or something in an object <br>
       <?php 
       $aluno = array(
           nome => "Josué",
@@ -148,8 +148,8 @@
 
     <div>
       <hr>
-      <p>Função <a href="http://php.net/manual/en/function.in-array.php" target="_blank">in_array</a> Checks if a value exists in an array. <br>
-      Geralmente é usado dentro da estrutura condicional if</p><br>
+      Função <a href="http://php.net/manual/en/function.in-array.php" target="_blank">in_array</a> Checks if a value exists in an array. <br>
+      Geralmente é usado dentro da estrutura condicional if <br><br>
       <?php 
       $vencedores = array(
         "José",

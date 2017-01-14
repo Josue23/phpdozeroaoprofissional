@@ -13,6 +13,7 @@
     $aluno = array(
         "nome" => "Bonieky",
         "idade" => 90,
+        "cidade" => "João Pessoa",
         "estado" => "PB",
         "pais" => "Brasil"
     );

@@ -148,9 +148,7 @@
 
     <div>
       <hr>
-      Função <a href="http://php.net/manual/en/function.in-array.php" target="_blank">in_array</a> Checks if a value exists in an array. <br>
-      Geralmente é usado dentro da estrutura condicional if <br><br>
-      <?php 
+            <?php 
       $vencedores = array(
         "José",
         "Josué",

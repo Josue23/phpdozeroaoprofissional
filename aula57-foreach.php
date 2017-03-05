@@ -12,7 +12,7 @@
     
     $alunos = array(
         array("nome" => "Bonieky", "idade" => 10),
-        array("nome" => "André", "idade" => 2),
+        array("nome" => "André", "idade" => 20),
         array("nome" => "Fulano", "idade" => 12),
         array("nome" => "Cicrano", "idade" => 15)
     );

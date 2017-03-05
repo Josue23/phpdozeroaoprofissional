@@ -10,11 +10,15 @@
     <h1>Aula de while loop</h1>
 
     <?php
-    $x = 0;
+    $x = 1;
+    $n = 3;
 
-    while($x < 10) {
-        echo "X é igual a $x " . "<br>";
+    echo "<br />" . "Dez primeiros múltiplos de 3" . "<br /><br />";
+    while($x <= 10) {
+        $parcial = $x * $n;
+        echo "$x x $n = $parcial " . "<br>";
         $x++;
+        /* $n++; */
     }
     ?>
 

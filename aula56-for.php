@@ -11,8 +11,8 @@
 
         <?php
 
-        for( $x = 0; $x < 10; $x++) {
-            echo "X é igual a $x" . "<br/>";
+        for( $x = 1; $x <= 10; $x++) {
+            echo "$x x 2 = " . $x * 2 . "<br/>";
         }
 
         ?>
